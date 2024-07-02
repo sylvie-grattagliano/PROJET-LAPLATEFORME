@@ -5,6 +5,11 @@
     font-size: 18px;
     
     background-color: rgb(225, 230, 233);
+
+}
+
+.body {
+  margin: 0;
 }
 .logo {
 
@@ -182,14 +187,27 @@ aside ul li {                  /*--pour oter point devant les listes--*/
 aside ul li a {
     color: green;
 }
-#bienvenue {
-    background-color: #4CAF50;
-    color: white;
-    padding:20px;
-    text-align: center;
+
        
-}
 #copie {
 
     font-size: 18px;
+}
+                             /*--mettre texte avec fond couleur--*/
+.banner {
+
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+                                /*--mettre texte avec fond couleur--*/
+.banner-bienvenue {
+  font-size: 2em;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  background-color: rgb(225, 31, 180);
+  background-size: cover;
+  background-position: center;
+  
 }
